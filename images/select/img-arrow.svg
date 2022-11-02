@@ -1,0 +1,12 @@
+<svg id="img-arrow.svg" xmlns="http://www.w3.org/2000/svg" width="71.62" height="62.38" viewBox="0 0 71.62 62.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5ab5b2;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_" data-name="▶" class="cls-1" d="M2472.79,1033.17l-25.62,31.19v-62.37l25.62,31.18h0Z" transform="translate(-2401.16 -1002)"/>
+  <path id="_2" data-name="▶" class="cls-1" d="M2401.15,1033.2l25.62-31.19v62.38l-25.62-31.19h0Z" transform="translate(-2401.16 -1002)"/>
+</svg>
