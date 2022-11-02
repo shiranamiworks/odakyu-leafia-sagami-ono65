@@ -1,0 +1,48 @@
+@media only print {
+  @page {
+    margin: 12.7mm 9.7mm;
+    size: A4;
+  }
+  .header__sitename a:before,
+  .header__nav,
+  .headerBottom,
+  .menuBtn,
+  .btnArea,
+  .ftrCvArea,
+  .summaryArea,
+  .footerArea,
+  .fixedMenu {
+    display: none;
+  }
+  .header {
+    position: static;
+  }
+  body {
+    height: 100vh;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact;
+    width: 920px;
+  }
+}
+
+.mapArea {
+  margin: 0 auto;
+}
+
+@media print, screen and (min-width: 768px) {
+  .mapArea {
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mapArea {
+    padding-top: 60px;
+  }
+}
+
+.mapArea__img {
+  -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+}

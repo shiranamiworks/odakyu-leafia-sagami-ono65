@@ -1,0 +1,213 @@
+@media only print {
+  @page {
+    margin: 12.7mm 9.7mm;
+    size: A4;
+  }
+  .header__sitename a:before,
+  .header__nav,
+  .headerBottom,
+  .menuBtn,
+  .btnArea,
+  .ftrCvArea,
+  .summaryArea,
+  .footerArea,
+  .fixedMenu {
+    display: none;
+  }
+  .header {
+    position: static;
+  }
+  body {
+    height: 100vh;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact;
+    width: 920px;
+  }
+}
+
+.mapArea {
+  margin: 0 auto;
+}
+
+@media print, screen and (min-width: 768px) {
+  .mapArea {
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mapArea {
+    padding-top: 60px;
+  }
+}
+
+.mapArea__img {
+  -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+}
+
+@media print, screen and (min-width: 768px) {
+  .mapArea + .addressBox {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mapArea + .addressBox {
+    margin-top: 40px;
+  }
+}
+
+.addressBox {
+  background-color: #def0f0;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+@media print, screen and (min-width: 768px) {
+  .addressBox {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .addressBox__ttl {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .addressBox__ttl {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .addressBox__ttl + .addressBox__txt {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .addressBox__ttl + .addressBox__txt {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .addressBox__txt {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .addressBox__txt {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .addressBox__txt + .galleryMapBtn {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .addressBox__txt + .galleryMapBtn {
+    margin-top: 20px;
+  }
+}
+
+.galleryMapBtn {
+  background: -webkit-gradient(linear, left top, right top, from(#849191), color-stop(70%, #9ca6a6), to(#b4bcbc));
+  background: linear-gradient(90deg, #849191 0%, #9ca6a6 70%, #b4bcbc 100%);
+  -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+@media print, screen and (min-width: 768px) {
+  .galleryMapBtn {
+    width: 244px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .galleryMapBtn--print {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .galleryMapBtn {
+    width: 100%;
+  }
+}
+
+.galleryMapBtn.is-hover {
+  color: #ffffff;
+}
+
+.galleryMapBtn.is-hover:before {
+  -webkit-animation: scaleout 1s 1 ease-out;
+          animation: scaleout 1s 1 ease-out;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  content: '';
+  height: calc(244px * 1.05);
+  left: calc(50% - (calc(244px * 1.05) / 2));
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: calc((40px - calc(244px * 1.05)) / 2);
+  width: calc(244px * 1.05);
+}
+
+@-webkit-keyframes scaleout {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scaleout {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.galleryMapBtn__anchor {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: .08em;
+  line-height: 1;
+  width: 100%;
+}

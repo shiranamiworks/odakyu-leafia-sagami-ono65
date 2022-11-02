@@ -1,0 +1,23 @@
+.tableArea {
+  margin: 0 auto;
+}
+
+@media print, screen and (min-width: 768px) {
+  .tableArea {
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tableArea {
+    padding-top: 60px;
+  }
+}
+
+.tableSec:nth-child(n+2) {
+  margin-top: 40px;
+}
+
+.tableSec .head--04 {
+  margin-bottom: 20px;
+}

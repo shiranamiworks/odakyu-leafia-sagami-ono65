@@ -1,0 +1,54 @@
+/**
+ * util
+ * (c) FOURDIGIT Inc.
+ */
+/* TextAlign */
+.al {
+  text-align: left;
+}
+
+.ar {
+  text-align: right;
+}
+
+.ac {
+  text-align: center;
+}
+
+/* Clearfix */
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* Nav */
+.nav {
+  zoom: 1;
+}
+
+.nav:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* accessibilityNav */
+#accessibilityNav {
+  display: none;
+}
+
+/* logtag */
+#logtag {
+  display: none;
+}
