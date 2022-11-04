@@ -564,6 +564,10 @@
   margin-bottom: 20px;
 }
 
+.cLinkBox .head--03 .mid{
+  font-size: 17px;
+}
+
 .cLinkBox .lowTxt {
   margin-bottom: 30px;
 }
@@ -675,6 +679,9 @@
     margin-left: 15px;
     padding: 0 15px 0 25px;
   }
+  .cLinkBox .head--03 .mid{
+  font-size: 14px;
+}
 }
 
 .cLinkSec--half .cPhoto {
@@ -741,7 +748,8 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+/*            justify-content: space-between;*/
+      justify-content: center;
   }
 }
 
@@ -761,7 +769,8 @@
   letter-spacing: .08em;
   line-height: 1.4;
   text-align: center;
-  width: 100%;
+/*  width: 100%;*/
+    width: 50%;
 }
 
 @media screen and (min-width: 1024px) {
@@ -778,6 +787,7 @@
     height: 120px;
     margin: 0 auto;
     max-width: 518px;
+    width: 100%;
   }
   .entryMeritList__item:nth-child(n+2) {
     margin-top: 10px;
@@ -1761,6 +1771,10 @@
 .uspTxt .cross {
   font-size: 1.33em;
   vertical-align: bottom;
+}
+
+.uspTxt .time {
+  font-size: 19px;
 }
 
 .uspTxt .line {
