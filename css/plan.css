@@ -723,11 +723,17 @@
     margin: 0 auto;
     width: calc(100% - 32px);
   }
+  .detailBox__body--doma{
+    margin-bottom: 30px;   
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .detailBox__body {
     margin: 0 10px;
+  }
+  .detailBox__body--doma{
+    margin-bottom: 20px;   
   }
 }
 
