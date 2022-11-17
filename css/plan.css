@@ -726,6 +726,9 @@
   .detailBox__body--doma{
     margin-bottom: 30px;   
   }
+  .detailBox__body--doma.mb0{
+    margin-bottom: 0;   
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -734,6 +737,9 @@
   }
   .detailBox__body--doma{
     margin-bottom: 20px;   
+  }
+  .detailBox__body--doma.mb0{
+    margin-bottom: 0;   
   }
 }
 
