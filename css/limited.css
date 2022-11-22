@@ -9,6 +9,12 @@
           justify-content: space-between;
 }
 
+.plan_text {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
 .planBtnList__item {
   -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
