@@ -723,10 +723,16 @@
     margin: 0 auto;
     width: calc(100% - 32px);
   }
+  .detailBox__body--airly{
+    margin-bottom: 20px;   
+  }
   .detailBox__body--doma{
     margin-bottom: 30px;   
   }
   .detailBox__body--doma.mb0{
+    margin-bottom: 0;   
+  }
+  .detailBox__body--airly.mb0{
     margin-bottom: 0;   
   }
 }
@@ -735,10 +741,16 @@
   .detailBox__body {
     margin: 0 10px;
   }
+  .detailBox__body--airly{
+    margin-bottom: 20px;   
+  }
   .detailBox__body--doma{
     margin-bottom: 20px;   
   }
   .detailBox__body--doma.mb0{
+    margin-bottom: 0;   
+  }
+  .detailBox__body--airly.mb0{
     margin-bottom: 0;   
   }
 }
