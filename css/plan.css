@@ -1500,6 +1500,123 @@
   background: #d7a974;
 }
 
+.selectmore {
+    margin: 30px auto;
+    padding: 0 35px;
+}
+.selectmore .p3{
+    font-size: 18px;
+}
+.selectmore .p3 p{
+    display: inline-block;
+}
+.selectmore .p3 .point{
+    background: #ad9731;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.selectmore .sty2{
+    font-size: 15px;
+    padding: 12px 0;
+}
+.selectmore .sec1f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.selectmore .sec1f figure{
+    position: relative;
+}
+.selectmore sec1f figure .capIn{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #fff;
+}
+.selectmore .sec1f li{
+    width: 23%;
+    margin-right: 2%;
+}
+.selectmore .sec1f .sec1c{
+    position: relative;
+    margin-bottom: 20px;
+}
+.selectmore .sec1f li .sec1c{
+    margin-top: 10px;
+    padding: 10px;
+}
+.selectmore .sec1f .sec1c::before{
+    width: 12px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+.selectmore .sec1f .sec1c::after{
+    width: 12px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+.selectmore .sec1f li .sec1c .p2{
+    text-align: center;
+    padding: 0;
+}
+.selectmore .sec1f li .sec1c .p2{
+    text-align: center;
+    padding: 0;
+}
+.selectmore .note{
+    font-size: 10px;
+}
+@media only screen and (max-width: 767px) {
+.selectmore {
+    padding: 0 20px;
+}
+.selectmore .p3 p{
+    display: block;
+}
+.selectmore .p3 .point{
+    background: #ad9731;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+.selectmore .sty2{
+    font-size: 13px;
+    padding: 12px 0;
+}
+.selectmore .sec1f li{
+    width: 48%;
+    margin-right: 2%;
+}
+.selectmore .sec1f li:nth-child(2n){
+    margin: auto;
+}
+.selectmore .sec1f li .sec1c .p2{
+    font-size: 12px;
+}
+.selectmore .sec1f li .sec1c {
+    padding: 10px 3px;
+}
+}
+
 .entryInnerArea {
   background: transparent url(../images/plan/bg-entry.jpg) no-repeat top center/cover;
   -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
