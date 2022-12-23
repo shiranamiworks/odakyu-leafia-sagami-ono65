@@ -1501,21 +1501,21 @@
 }
 
 .selectmore {
-    margin: 30px auto;
-    padding: 0 35px;
+    margin: 40px 35px 30px;
+    padding: 30px;
+    background-color: rgba(115, 177, 167, 0.4);
 }
 .selectmore .p3{
-    font-size: 18px;
+    font-size: 25px;
 }
 .selectmore .p3 p{
     display: inline-block;
 }
 .selectmore .p3 .point{
-    background: #ad9731;
-    color: #fff;
     padding: 5px 10px;
     margin-left: 30px;
     font-size: 15px;
+    border: 1px solid;
 }
 .selectmore .sty2{
     font-size: 15px;
@@ -1539,6 +1539,9 @@
 .selectmore .sec1f li{
     width: 23%;
     margin-right: 2%;
+}
+.selectmore .sec1f li:last-child{
+    margin: auto;
 }
 .selectmore .sec1f .sec1c{
     position: relative;
@@ -1585,18 +1588,21 @@
 }
 @media only screen and (max-width: 767px) {
 .selectmore {
-    padding: 0 20px;
+    margin: 30px 20px
+}
+.selectmore .p3{
+    font-size: 20px;
 }
 .selectmore .p3 p{
     display: block;
 }
 .selectmore .p3 .point{
-    background: #ad9731;
-    color: #fff;
     padding: 5px 10px;
     margin-left: 0px;
     font-size: 15px;
     text-align: center;
+    border: 1px solid;
+    margin-top: 10px;
 }
 .selectmore .sty2{
     font-size: 13px;
