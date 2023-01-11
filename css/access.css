@@ -101,10 +101,13 @@
   line-height: 1.8;
   padding-top: 10px;
 }
+.stationArea__cap.top{
+  padding-top: 50px;
+}
 
 @media print, screen and (min-width: 768px) {
   .stationArea__cap {
-    text-align: right;
+    text-align: left;
   }
 }
 
