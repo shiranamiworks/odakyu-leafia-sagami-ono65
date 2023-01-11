@@ -1747,9 +1747,17 @@
   line-height: 1.35;
 }
 
+.uspTxt .term {
+    font-size: 13px;
+  }
+
 @media print, screen and (min-width: 768px) {
   .uspTxt__item {
+    padding: 0 5px 10px;
+  }
+  .uspTxt__item.price {
     padding: 0 5px 24px;
+    line-height: 1.0;
   }
 }
 
@@ -1761,8 +1769,12 @@
 
 @media print, screen and (max-width: 767px) {
   .uspTxt__item {
-    padding-bottom: 24px;
+/*    padding-bottom: 24px;*/
     font-size: 25px;
+  }
+  .uspTxt__item.price {
+    padding-bottom: 24px;
+    line-height: 1.0;
   }
 }
 
@@ -1811,11 +1823,25 @@
   .infoArea {
     margin: 80px auto 120px;
   }
+  .infoArea .text01{
+    font-size: 13px;
+    font-family: "EB Garamond", serif;
+    color: #5ab5b2;
+    letter-spacing: .15em;
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .infoArea {
     margin: 35px auto 60px;
+  }
+  .infoArea .text01{
+    font-size: 13px;
+    font-family: "EB Garamond", serif;
+    color: #5ab5b2;
+    letter-spacing: .15em;
+    margin-bottom: 10px;
   }
 }
 
