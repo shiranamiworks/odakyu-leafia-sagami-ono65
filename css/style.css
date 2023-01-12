@@ -1748,7 +1748,7 @@
 }
 
 .uspTxt .term {
-    font-size: 13px;
+    font-size: 10px;
   }
 
 @media print, screen and (min-width: 768px) {
@@ -1758,6 +1758,11 @@
   .uspTxt__item.price {
     padding: 0 5px 24px;
     line-height: 1.0;
+  }
+  .uspTxt__item.price .sale{
+      padding-bottom: 10px;
+      display: inline-block;
+      font-size: 19px;
   }
 }
 
@@ -1775,6 +1780,11 @@
   .uspTxt__item.price {
     padding-bottom: 24px;
     line-height: 1.0;
+  }
+  .uspTxt__item.price .sale{
+      padding-bottom: 10px;
+      display: inline-block;
+      font-size: 19px;
   }
 }
 
@@ -1824,7 +1834,7 @@
     margin: 80px auto 120px;
   }
   .infoArea .text01{
-    font-size: 13px;
+    font-size: 10px;
     font-family: "EB Garamond", serif;
     color: #5ab5b2;
     letter-spacing: .15em;
@@ -1837,7 +1847,7 @@
     margin: 35px auto 60px;
   }
   .infoArea .text01{
-    font-size: 13px;
+    font-size: 10px;
     font-family: "EB Garamond", serif;
     color: #5ab5b2;
     letter-spacing: .15em;
