@@ -1749,6 +1749,8 @@
 
 .uspTxt .term {
     font-size: 10px;
+    display: block;
+    margin-top: 5px;
   }
 
 @media print, screen and (min-width: 768px) {
