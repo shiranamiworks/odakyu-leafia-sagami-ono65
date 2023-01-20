@@ -201,6 +201,9 @@
 .headContent {
   margin: 0 auto;
 }
+.headContent .cap{
+  padding-left: 5px;
+}
 
 @media print, screen and (min-width: 768px) {
   .headContent {
@@ -441,6 +444,14 @@
   max-width: 949px;
   padding: 0 15px;
 }
+.domaUse.garden{
+  max-width: 800px;
+  margin: 30px auto;
+}
+.detailBox__head.garden-point{
+  max-width: 930px;
+  margin: auto;
+}
 
 @media only screen and (max-width: 767px) {
   .domaUse {
@@ -453,6 +464,9 @@
     margin-top: 40px;
     padding: 0;
   }
+  .domaUse.garden{
+   gap: 16px;
+}
 }
 
 .domaUse__item {
@@ -477,6 +491,10 @@
   text-align: center;
   width: calc(160 / 919 * 100vw);
 }
+.domaUse.garden .domaUse__item{
+  border: 1px solid #73b1a7;
+  color: #007b5d;
+}
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .domaUse__item {
@@ -490,6 +508,11 @@
     height: 28vw;
     width: 28vw;
   }
+  .domaUse.garden .domaUse__item {
+    font-size: 13px;
+    height: 34vw;
+    width: 34vw;
+  }
 }
 
 .domaUse__item:after {
@@ -501,6 +524,9 @@
   position: absolute;
   top: 7px;
   width: calc(100% - 14px);
+}
+.domaUse.garden .domaUse__item:after {
+  border: 2px solid #73b1a7;
 }
 
 @media only screen and (max-width: 767px) {
@@ -567,6 +593,10 @@
 @media only screen and (max-width: 767px) {
   .detailBox__head {
     position: relative;
+  }
+  .detailBox__head.garden-point .head--04{
+    height: 65px;
+    text-align: center;
   }
 }
 
