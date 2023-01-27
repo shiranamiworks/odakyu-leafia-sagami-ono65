@@ -1755,7 +1755,7 @@
 
 @media print, screen and (min-width: 768px) {
   .uspTxt__item {
-    padding: 0 5px 10px;
+    padding: 0 5px 30px;
   }
   .uspTxt__item.price {
     padding: 0 5px 24px;
@@ -1776,7 +1776,7 @@
 
 @media print, screen and (max-width: 767px) {
   .uspTxt__item {
-/*    padding-bottom: 24px;*/
+    padding-bottom: 24px;
     font-size: 25px;
   }
   .uspTxt__item.price {

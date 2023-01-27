@@ -765,6 +765,9 @@
   .detailBox__body--airly{
     margin-bottom: 20px;   
   }
+  .detailBox__body--garden{
+    margin-bottom: 20px;   
+  }
   .detailBox__body--doma{
     margin-bottom: 30px;   
   }
@@ -772,6 +775,9 @@
     margin-bottom: 0;   
   }
   .detailBox__body--airly.mb0{
+    margin-bottom: 0;   
+  }
+  .detailBox__body--garden.mb0{
     margin-bottom: 0;   
   }
 }
@@ -786,10 +792,16 @@
   .detailBox__body--doma{
     margin-bottom: 20px;   
   }
+  .detailBox__body--garden{
+    margin-bottom: 20px;   
+  }
   .detailBox__body--doma.mb0{
     margin-bottom: 0;   
   }
   .detailBox__body--airly.mb0{
+    margin-bottom: 0;   
+  }
+  .detailBox__body--garden.mb0{
     margin-bottom: 0;   
   }
 }
