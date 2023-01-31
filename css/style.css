@@ -329,11 +329,13 @@
   }
 }
 
+/*
 @media print, screen and (min-width: 768px) {
   .cLinkSec--brand {
     margin-left: 70px;
   }
 }
+*/
 
 @media print, screen and (min-width: 768px) {
   .cLinkSec--brand .cHead .line {
@@ -347,43 +349,38 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+.movie{
+    width: 100%;
+    margin: auto;
+    margin-top: 62px;
+}
 .video{
     text-align: center;
-}
-.video iframe{
-    padding: 0 10px;
-    max-width: 1200px;
-    width: 94%;
-    height: 560px;
-}
-}
-@media only screen and (max-width: 1024px) {
-.video{
-    text-align: center;
-}
-.video iframe{
-    padding: 0 10px;
-    width: 90%;
-    height: 450px;
+    position:relative;
+    width:100%;
+    height:0;
+    padding-bottom: 56.25%;
     margin: auto;
 }
-}
-@media only screen and (max-width: 767px) {
-.video{
-    text-align: center;
-    padding: 0 10px;
-    
-}
 .video iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
     padding: 0 10px;
-    width: 100%;
-    height: 340px;
 }
-}
-.video .text{
+.movie .text{
     font-size: 20px;
     padding: 0 0 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .movie{
+    width: 100%;
+    margin: auto;
+    margin-top: 62px;
+}
 }
 
 .bnr-area {
