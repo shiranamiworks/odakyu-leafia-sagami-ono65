@@ -353,6 +353,7 @@
     width: 100%;
     margin: auto;
     margin-top: 62px;
+    max-width: 720px;
 }
 .video{
     text-align: center;
