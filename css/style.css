@@ -381,6 +381,10 @@
     font-size: 15px;
     line-height: calc(22.4 / 14);
 }
+.movie .cap {
+    text-align: right;
+    padding-right: 10px;
+}
 @media only screen and (max-width: 767px) {
   .movie{
     width: 100%;
