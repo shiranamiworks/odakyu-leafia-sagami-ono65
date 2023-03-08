@@ -908,11 +908,20 @@
 #quality .sec2 .sectionin .sec4a > li.cl3 {
     width: 66%;
 }
+#quality .sec2 .sectionin .sec4a > li.bath {
+    width: 57%;
+}
+#quality .sec2 .sectionin .sec4a > li.bath02 {
+    width: 41%;
+}
 
 @media screen and (max-width: 584px) {
     #quality .sec2 .sectionin .sec4a > li.cl3 {
         width: 100%;
         order: 1;
+    }
+    #quality .sec2 .sectionin .sec4a > li.bath02 {
+        width: 49%;
     }
 }
 #quality .sec2 .sectionin .sec5a > li.cl3 {
