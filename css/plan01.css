@@ -2108,7 +2108,7 @@
 .torikagoArea .text01{
     text-align: center;
     font-size: 24px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .torikagoArea .text01 .border{
     position: relative;
@@ -2132,6 +2132,16 @@
  
 .torikagoArea .text01 .border:after {
     right: 0;
+}
+.torikagoArea .text02{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 50px;
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto 50px;
+    width: 450px;
+    padding: 7px
 }
 .torikagoArea .cap{
     padding-top: 20px;
@@ -2227,6 +2237,10 @@
 @media only screen and (max-width: 767px) {
 .torikagoArea .text01{
     font-size: 20px;
+}
+.torikagoArea .text02{
+    width: 280px;
+    font-size: 14px;
 }
 .torikagoArea .swipe-img{
     overflow-x: scroll;
