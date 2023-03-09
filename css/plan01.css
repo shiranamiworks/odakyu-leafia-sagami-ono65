@@ -698,8 +698,8 @@
     display: inline-block;
     padding: 3px;
     position: absolute;
-    top: 12px;
-    left: -150px;
+    top: 7px;
+    left: -143px;
   }
 }
 
@@ -989,6 +989,10 @@
 /*            justify-content: space-between;*/
     padding: 31px 0px 33px 25px;
   }
+    .specBox__menu.sp{
+    display: none;
+  }
+
 }
 
 /*
@@ -1123,7 +1127,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .specBox__plan {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -1212,7 +1216,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
 /*          justify-content: space-between;*/
-     padding:  7px 0 0px 30px;
+     padding:  7px 12px 0px 40px;
      height: 170px;
      margin: auto;
   }
@@ -1248,10 +1252,10 @@
           align-items: baseline;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: inline-flex;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: flex-start;
+          justify-content: center;
     border-bottom: 1px solid #73b1a7;
     width: 100%;
   }
@@ -1264,11 +1268,14 @@
 */
   }
   .specBox__right {
-    text-align: start;
+    text-align: center;
     padding-left: 43px;
   }
   .specBox__plan {
     padding-right: 0;
+  }
+  .specBox__menu.sp{
+    display: none;
   }
 }
   .specBox__type {
@@ -1289,9 +1296,6 @@
     padding: 3px;
     text-align: center;
   }
-  .specBox__menu.sp{
-    display: none;
-  }
   .specBox__ha {
     padding-top: 10px;
   }
@@ -1300,6 +1304,10 @@
   }
   .switchCont {
     margin: 50px auto;
+  }
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .specBox__ha {
+    padding-top: 6px;
   }
 }
 
@@ -1367,35 +1375,7 @@
  .menu-box .border:after {
     right: 0;
  }
-/*
-@media print, screen and (max-width: 540px) {
-  .detailBox li.type-detail{
-    width: 100%;
-  }
-  .specBox__left {
-    padding-top: 220px;
-  }
-  .specBox.specBox--doma_e {
-     height: 500px;
-  }
-  .specBox {
-     height: 450px;
-  }
-}
-*/
-/*
-@media print, screen and (max-width: 420px) {
-  .specBox__left {
-    padding-top: 170px;
-  }
-  .specBox.specBox--doma_e {
-     height: 480px;
-  }
-  .specBox {
-     height: 420px;
-  }
-}
-*/
+
 
 .figureTab {
   border-bottom: 1px solid #111111;
