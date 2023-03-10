@@ -937,6 +937,10 @@
     margin-bottom: 30px;
 }
 
+.detailBox__melitLead .basic.mb0{
+    margin-bottom: 0px;
+}
+
 @media print, screen and (min-width: 768px) {
   .detailBox__melitLead {
     padding: 0 35px;
@@ -1181,6 +1185,9 @@
   .specBox__type--line {
     border-right: none;
   }
+  .specBox__balcony.pc{
+    display: none;
+  }
 }
 
 
@@ -1344,6 +1351,10 @@
   .menu-box{
     text-align: center;
     margin: 60px auto;
+}
+  .menu-box .menu-img{
+    width: 85%;
+    margin: auto;
  }
   .menu-box .text{
      font-size: 20px;
@@ -1399,6 +1410,10 @@
     max-width: calc(100% - 40px);
     padding: 0 40px;
   }
+  .menu-box .menu-img{
+    width: 100%;
+    margin: auto;
+ }
 }
 
 .figureTab__item {
@@ -2044,7 +2059,7 @@
 }
 
 .pageLeadArea .cap{
-    text-align: left;
+    text-align: center;
     padding-top: 50px;
 }
 .pageLeadArea sup{
@@ -2065,6 +2080,9 @@
   }
   .pageLeadArea .lowTxt{
     text-align: center;
+  }
+  .pageLeadArea .cap{
+    text-align: left;
   }
 }
 
@@ -2160,39 +2178,39 @@
 }
 .torikagoArea .link .btn_e{
     position: absolute;
-    top:0%;
+    top:0.2%;
     left: 31.3%;
-    width: 7.84%;
+    width: 7.85%;
 }
 .torikagoArea .link .btn_f{
     position: absolute;
-    top:0%;
+    top:0.2%;
     left: 45.2%;
-    width: 7.84%;
+    width: 7.85%;
 }
 .torikagoArea .link .btn_g{
     position: absolute;
-    top:0%;
+    top:0.2%;
     left: 53%;
-    width: 7.84%;
+    width: 7.85%;
 }
 .torikagoArea .link .btn_h{
     position: absolute;
-    top:13%;
+    top:13.15%;
     left: 60.85%;
     width: 7.82%;
 }
 .torikagoArea .link .btn_i{
     position: absolute;
-    top:25.8%;
+    top:25.7%;
     left: 68.65%;
-    width: 7.82%;
+    width: 7.83%;
 }
 .torikagoArea .link .btn_l{
     position: absolute;
     top:50.7%;
     right: 0%;
-    width: 7.84%;
+    width: 7.83%;
 }
 .torikagoArea .link figure {
     background-color: #fff;
