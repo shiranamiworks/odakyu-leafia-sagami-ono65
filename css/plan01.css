@@ -1389,7 +1389,7 @@
 
 
 .figureTab {
-  border-bottom: 1px solid #111111;
+  border-bottom: 0.5px solid #111111;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1408,7 +1408,9 @@
 @media only screen and (max-width: 767px) {
   .figureTab {
     max-width: calc(100% - 40px);
-    padding: 0 40px;
+    padding: 0 20px;
+    border-bottom: none;
+    display: block;
   }
   .menu-box .menu-img{
     width: 100%;
@@ -1421,28 +1423,59 @@
       -ms-flex-align: center;
           align-items: center;
   background: #f4ede6;
-  border: 1px solid #111111;
+  border: 0.5px solid #111111;
   border-bottom: none;
   color: #956134;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 12px;
-  height: 22px;
+  font-size: 14px;
+  height: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   line-height: 1;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  width: 158px;
+  width: 200px;
 }
 
 .figureTab__item:nth-child(n+2) {
   border-left: none;
 }
 
+@media only screen and (max-width: 767px) {
+  .figureTab__item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f4ede6;
+  border: 0.5px solid #111111;
+  border-bottom: 0.5px solid #111111;
+  color: #956134;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.figureTab__item:nth-child(n+2) {
+  border-left: 0.5px solid #111111;
+}
+}
 @media (hover: hover) and (pointer: fine) {
   .figureTab__item:hover {
     background: #c1a97d;
