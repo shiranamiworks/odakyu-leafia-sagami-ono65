@@ -1364,9 +1364,13 @@
   .menu-box{
     text-align: center;
     margin: 60px auto;
-}
+ }
   .menu-box .menu-img{
-    width: 85%;
+    width: 100%;
+    margin: auto;
+ }
+  .menu-box .menu-img.etype{
+    width: 96%;
     margin: auto;
  }
   .menu-box .text{
