@@ -701,6 +701,16 @@
     top: 7px;
     left: -143px;
   }
+  .openBtn .specBox__layout{
+    background-color: #fff;
+    color: #73b1a7;
+    border: 1px solid #73b1a7;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    top: 7px;
+    left: -155px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -996,6 +1006,9 @@
     .specBox__menu.sp{
     display: none;
   }
+    .specBox__layout.sp{
+    display: none;
+  }
 
 }
 
@@ -1069,6 +1082,14 @@
     padding: 3px;
     text-align: center;
   }
+  .specBox__layout{
+    background-color: #fff;
+    color: #73b1a7;
+    border: 1px solid #73b1a7;
+    display: block;
+    padding: 3px;
+    text-align: center;
+  }
   .specBox__left {
     -webkit-box-align: none;
       -ms-flex-align: none;
@@ -1082,6 +1103,34 @@
   }
 }
 
+.specBox__type--line {
+  border-right: 1px solid #73b1a7;
+}
+
+@media print, screen and (min-width: 1024px) {
+.specBox__plan.etype{
+  padding-right: 15px;
+}
+.specBox__plan.ltype{
+  padding-right: 15px;
+}
+.specBox__plan.lgtype{
+  padding-right: 136px;
+}
+.specBox__plan.ftype{
+  padding-right: 141px;
+}
+.specBox__plan.gtype{
+  padding-right: 111px;
+}
+.specBox__plan.htype{
+  padding-right: 89px;
+}
+.specBox__plan.igtype{
+  padding-right: 147px;
+}
+}
+
 /*
 .specBox__type--airly {
   border-right: 1px solid #73b1a7;
@@ -1093,10 +1142,6 @@
   border-right: 1px solid #73b1a7;
 }
 */
-
-.specBox__type--line {
-  border-right: 1px solid #73b1a7;
-}
 
 /*
 .specBox__type--variable {
@@ -1254,7 +1299,19 @@
     padding: 3px;
     position: absolute;
     top: 4px;
-    left: -137px;
+    left: -117px;
+    font-size: 12px;
+  }
+  .openBtn .specBox__layout{
+    background-color: #fff;
+    color: #73b1a7;
+    border: 1px solid #73b1a7;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    top: 4px;
+    left: -127px;
+    font-size: 12px;
   }
   .specBox__left {
     padding-top: 0;
@@ -1288,6 +1345,9 @@
   .specBox__menu.sp{
     display: none;
   }
+  .specBox__layout.sp{
+    display: none;
+  }
   .specBox__balcony {
   font-size: 10px;
   letter-spacing: .08em;
@@ -1312,6 +1372,14 @@
   .specBox__menu{
     background-color: #73b1a7;
     color: #fff;
+    display: block;
+    padding: 3px;
+    text-align: center;
+  }
+  .specBox__layout{
+    background-color: #fff;
+    color: #73b1a7;
+    border: 1px solid #73b1a7;
     display: block;
     padding: 3px;
     text-align: center;
