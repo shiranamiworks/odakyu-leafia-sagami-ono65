@@ -1394,6 +1394,11 @@
   .switchCont {
     margin: 50px auto;
   }
+@media print, screen and (min-width: 1024px) {
+  .specBox__plan {
+    text-align: left;
+  }  
+}
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .specBox__ha {
     padding-top: 6px;
