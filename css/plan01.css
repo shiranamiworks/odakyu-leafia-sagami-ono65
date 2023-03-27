@@ -681,7 +681,7 @@
 @media print, screen and (min-width: 768px) {
   .detailBox .openBtn {
     right: 7px;
-    width: 270px;
+    width: 230px;
     position: absolute;
   }
   .detailBox .openBtn .capIn{
@@ -1273,12 +1273,12 @@
       -ms-flex-pack: justify;
 /*          justify-content: space-between;*/
      padding:  7px 12px 0px 40px;
-     height: 170px;
+     height: 185px;
      margin: auto;
   }
   .detailBox .openBtn {
     right: 0px;
-    width: 370px;
+    width: 347px;
     position: absolute;
     right: 7px;
     top: 7px;
@@ -1341,6 +1341,7 @@
   }
   .specBox__plan {
     padding-right: 0;
+    width: 280px;
   }
   .specBox__menu.sp{
     display: none;
@@ -1422,7 +1423,7 @@
      height: 100%;
   }
   .specBox__left {
-    padding-top: 48%;
+    padding-top: 56%;
   }
   .specBox__type--line {
     border-right: none;
@@ -1432,6 +1433,9 @@
   .menu-box{
     text-align: center;
     margin: 60px auto;
+ }
+.menu-box.menu-box_etype{
+    margin: 30px auto;
  }
   .menu-box .menu-img{
     width: 100%;
@@ -1583,11 +1587,18 @@
 .detailFigure__item {
   display: none;
 }
+.detailFigure__item.detailFigure__item_etype {
+  width: 96%;
+  margin: auto;
+}
 
 @media only screen and (max-width: 767px) {
   .detailFigure__item {
     padding: 0 20px;
   }
+  .detailFigure__item.detailFigure__item_etype {
+    padding: 0 0;
+}
 }
 
 .detailFigure__item.is-show {
