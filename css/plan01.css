@@ -1594,7 +1594,7 @@
 
 @media only screen and (max-width: 767px) {
   .detailFigure__item {
-    padding: 0 20px;
+/*    padding: 0 20px;*/
   }
   .detailFigure__item.detailFigure__item_etype {
     padding: 0 0;
