@@ -1722,7 +1722,7 @@
 
 @media print, screen and (min-width: 768px) {
   .floorPlan__item:nth-child(n+2) {
-    margin-left: 10px;
+/*    margin-left: 10px;*/
   }
 }
 
