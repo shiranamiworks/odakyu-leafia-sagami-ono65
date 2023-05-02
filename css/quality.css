@@ -32,14 +32,14 @@
 }
 
 #quality .articleArea {
-    padding: 80px 0;
+/*    padding: 80px 0;*/
     background: transparent url(../common/images/bg-content.jpg);
     no-repeat top center;
 }
 
 @media screen and (max-width: 584px) {
     #quality .articleArea {
-        padding: 12vw 0;
+/*        padding: 12vw 0;*/
     }
 }
 
