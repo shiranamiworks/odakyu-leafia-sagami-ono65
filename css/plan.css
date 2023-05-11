@@ -1109,7 +1109,10 @@
 
 @media print, screen and (min-width: 1024px) {
 .specBox__plan.etype{
-  padding-right: 15px;
+  padding-right: 67px;
+}
+.specBox__plan.atype{
+  padding-right: 146px;
 }
 .specBox__plan.ltype{
   padding-right: 161px;
