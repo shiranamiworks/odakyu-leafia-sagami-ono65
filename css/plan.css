@@ -1167,6 +1167,10 @@
 .specBox__type .small {
   font-size: .37em;
 }
+.specBox__type .small.room {
+  font-size: 10px;
+  display: block;
+}
 
 .specBox__plan {
   font-family: "EB Garamond", serif;
@@ -1366,7 +1370,7 @@
     margin-right: 0px;
     padding: 5px 10px 0 0;
     text-align: center;
-    line-height:normal;
+    line-height:1.2;
   }
   .specBox__plan {
     padding-right: 10px;
@@ -1436,6 +1440,12 @@
   .specBox__type--line {
     border-right: none;
     border-bottom: 1px solid #73b1a7;
+  }
+  .specBox__plan.etype{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
   }
 }
   .menu-box{
@@ -2313,6 +2323,18 @@
     left: 0.07%;
     width: 7.71%;
 }
+.torikagoArea .link .btn_c{
+    position: absolute;
+    top:25.8%;
+    left: 15.7%;
+    width: 7.81%;
+}
+.torikagoArea .link .btn_dr{
+    position: absolute;
+    top:0.25%;
+    left: 23.5%;
+    width: 7.79%;
+}
 .torikagoArea .link .btn_e{
     position: absolute;
     top:0.2%;
@@ -2360,6 +2382,14 @@
     transition: .3s ease-in-out;
 }
 #atype{
+    padding-top:200px;
+    margin-top:-200px;
+}
+#ctype{
+    padding-top:200px;
+    margin-top:-200px;
+}
+#drtype{
     padding-top:200px;
     margin-top:-200px;
 }
@@ -2416,6 +2446,18 @@
     top:120.1px;
     left: 0px;
     width: 61.7px;
+}
+.torikagoArea .link .btn_c{
+    position: absolute;
+    top:80.1px;
+    left: 125.5px;
+    width: 62.6px;
+}
+.torikagoArea .link .btn_dr{
+    position: absolute;
+    top:0.1px;
+    left: 188px;
+    width: 62.8px;
 }
 .torikagoArea .link .btn_e{
     position: absolute;
