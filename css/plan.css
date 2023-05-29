@@ -1109,7 +1109,10 @@
 
 @media print, screen and (min-width: 1024px) {
 .specBox__plan.etype{
-  padding-right: 67px;
+  padding-right: 59px;
+}
+.specBox__plan.etype-basic{
+  padding-right: 68px;
 }
 .specBox__plan.atype{
   padding-right: 146px;
@@ -1449,6 +1452,12 @@
     border-bottom: 1px solid #73b1a7;
   }
   .specBox__plan.etype{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .specBox__plan.etype-basic{
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 20px;
