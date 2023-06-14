@@ -121,48 +121,36 @@
   }
 }
 
-.lifeInfoList.shopping .lifeInfoList__name .num {
+.lifeInfoCont__item:nth-child(1) .lifeInfoList__name .num {
   background: #fd5658;
 }
 
-.lifeInfoList.public .lifeInfoList__name .num {
+.lifeInfoCont__item:nth-child(2) .lifeInfoList__name .num {
   background: #9c2caf;
 }
 
-.lifeInfoList.finance .lifeInfoList__name .num {
+.lifeInfoCont__item:nth-child(3) .lifeInfoList__name .num {
   background: #fac13f;
 }
 
-.lifeInfoList.education .lifeInfoList__name .num {
+.lifeInfoCont__item:nth-child(4) .lifeInfoList__name .num {
   background: #785549;
 }
 
-.lifeInfoList.park .lifeInfoList__name .num {
+.lifeInfoCont__item:nth-child(5) .lifeInfoList__name .num {
   background: #189c5a;
 }
 
-.lifeInfoList.medical .lifeInfoList__name .num {
+.lifeInfoCont__item:nth-child(6) .lifeInfoList__name .num {
   background: #3b4ba5;
 }
 
 .lifeInfoMap {
-  /*-webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);*/
-  /*        box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);*/
+  -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
   position: relative;
 }
-.lifeInfoMap.gmap {
-  position: absolute;
-  z-index: 77;
-  -webkit-box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 20px -3px rgba(0, 0, 0, 0.1);
-}
-.lifeInfoMap.gmap iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
+
 @media print, screen and (min-width: 768px) {
   .lifeInfoMap {
     padding-top: calc(100% * 527 / 1110);
