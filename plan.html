@@ -362,14 +362,15 @@
                         <img src="./images02/plan/plan-torikago.png" class="btn-img" alt="Plan">
                         <span class="btn_a"><figure><a href="#atype"><img src="./images02/plan/btn_atype.png" class="btn"></a></figure></span>
                         <span class="btn_c"><figure><a href="#ctype"><img src="./images02/plan/btn_ctype.png" class="btn"></a></figure></span>
-                        <span class="btn_dr"><figure><a href="#drtype"><img src="./images02/plan/btn_drtype.png" class="btn"></a></figure></span>
+                        <span class="btn_d"><figure><a href="#dtype"><img src="./images02/plan/btn_dtype.png" class="btn"></a></figure></span>
+<!--                        <span class="btn_dr"><figure><a href="#drtype"><img src="./images02/plan/btn_drtype.png" class="btn"></a></figure></span>-->
                         <span class="btn_e"><figure><a href="#etype"><img src="./images02/plan/btn_etype.png" class="btn"></a></figure></span>
                         <span class="btn_f"><img src="./images02/plan/btn_ftype-close.png" class="btn"></span>
                         <span class="btn_g"><img src="./images02/plan/btn_gtype-close.png" class="btn"></span>
-                        <span class="btn_h"><figure><a href="#htype"><img src="./images02/plan/btn_htype.png" class="btn"></a></figure></span>
+                        <span class="btn_h"><img src="./images02/plan/btn_htype-close.png" class="btn"></span>
                         <span class="btn_i"><img src="./images02/plan/btn_itype-close.png" class="btn"></span>
-                        <span class="btn_j"><figure><a href="#jtype"><img src="./images02/plan/btn_jtype.png" class="btn"></a></figure></span>
-                        <span class="btn_l"><figure><a href="#ltype"><img src="./images02/plan/btn_ltype.png" class="btn"></a></figure></span>
+                        <span class="btn_j"><img src="./images02/plan/btn_jtype-close.png" class="btn"></span>
+                        <span class="btn_l"><img src="./images02/plan/btn_ltype-close.png" class="btn"></span>
                         </div>
                     </div>
                     <div class="swipe sp"><img src="./images02/plan/icon_swipe.png"></div>
@@ -392,7 +393,7 @@
                                             <div class="openBtn openBtn--doma openBtn--doma_e-basic sp"><img src="./images02/plan/thumb-doma.png"><p class="capIn sp">Image photo</p></div>
                                             <div class="specBox__left">
 <!--                                                <div class="specBox__menu sp">MENU PLAN公開中</div>-->
-                                                <div class="specBox__type">E<span class="small">type</span><span class="small room">305号室</span></div>
+                                                <div class="specBox__type">E<span class="small">type</span><span class="small room">205・305号室</span></div>
                                                 <div class="specBox__plan specBox__type--line etype-basic">
                                                     3LDK<br class="sp"><span class="small">+DOMA</span><span class="small">+N</span><span class="small">+2WIC</span><br><span class="specBox__balcony">※先着順販売対象住戸</span>
                                                 </div>
@@ -935,7 +936,7 @@
                             </div><!--js-openCont Ltype-->
                             </li>
                             
-                            <li class="type-detail" id="ltype">
+                            <li class="type-detail" id="ltype" style="display: none">
                             <div class="js-openCont">
 
                                 <div class="detailBox__body detailBox__body--garden">
@@ -1981,7 +1982,7 @@
                          <section class="detailBox detailBox--over70">
                             <ul class="type-list">
                                 
-                            <li class="type-detail" id="jtype">
+                            <li class="type-detail" id="jtype" style="display: none">
                             <div class="js-openCont">
                                 <div class="detailBox__body detailBox__body--variable">
                                     <div class="detailBox__spec js-openBtn">
@@ -2286,8 +2287,6 @@
 
 
                                                 <li class="floorPlan__item">WIC：ウォークインクローゼット</li>
-<!--                                                <li class="floorPlan__item">※図面内の英語表記は以下の通りです。Living Dining：リビング・ダイニング、Bedroom（１）〜（３）：洋室（１）〜（3）、Rest Room：トイレ、Bathroom：浴室、Powder Room：洗面室、Entrance：玄関、Kitchen：キッチン、Balcony：バルコニー、Closet：クローゼット、WIC：ウォークインクローゼット、Futon Closet：布団クローゼット、Storage：物入、Linen：リネン庫、Nando：納戸、Shoes Closet:玄関収納、Roof Balcony：ルーフバルコニー、W：洗濯機置場、R：冷蔵庫置場、Terrace：テラス、Private Garden：専用庭、J：畳数</li>-->
-<!--                                                <li class="floorPlan__item"> ※掲載の間取り図内の家具・調度品・植栽等はイメージイラストです。同種の家具等の設置を保証するものではありません。また、販売価額に含まれておりません。 ※掲載のイラストは計画段階の図面を基に描き起こしたもので変更になる場合があります。</li>-->
                                                 <li class="floorPlan__item">※掲載の図面は計画段階のもので変更になる場合がございます。</li>
                                             </ul>
 
@@ -2385,7 +2384,7 @@
                             </div><!--js-openCont Gtype-->
                             </li>
                             
-                            <li class="type-detail">
+                            <li class="type-detail" style="display: none">
                                <div class="js-openCont" id="htype">
                                 <div class="detailBox__body detailBox__body--doma">
                                     <div class="detailBox__spec js-openBtn">
@@ -2608,7 +2607,80 @@
                             </div><!--js-openCont Ctype-->
                             </li>
                                 
-                            <li class="type-detail" id="drtype">
+                            <li class="type-detail" id="dtype">
+                            <div class="js-openCont">
+                                <div class="detailBox__body detailBox__body--variable">
+                                    <div class="detailBox__spec js-openBtn">
+
+                                        <div class="specBox specBox--variable specBox--variabley_d">
+                                            <div class="openBtn openBtn--variable openBtn--variable_d sp"><img src="./images02/plan/thumb-variable02.png"><p class="capIn sp">Image photo</p></div>
+                                            <div class="specBox__left">
+<!--                                                <div class="specBox__menu sp">MENU PLAN公開中</div>-->
+                                                <div class="specBox__type specBox__type--variable">D<span class="small">type</span></div>
+                                                <div class="specBox__plan specBox__type--line dtype">
+                                                    2LDK<br class="sp"><span class="small">+S+N</span><br><span class="specBox__balcony">※先着順販売対象住戸</span>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="specBox__right">
+                                                <div class="specBox__ha">
+                                                    <span class="small">専有面積</span><span class="large">68</span>.16㎡<span class="small">（約20.61坪） </span>
+                                                </div>
+                                                <div class="specBox__balcony">
+                                                    バルコニー面積／12.80㎡
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="openBtn openBtn--variable openBtn--variable_d pc"><!--<p class="specBox__menu">MENU PLAN公開中</p>--><img src="./images02/plan/thumb-variable02.png"><p class="capIn">Image photo</p></div>
+                                    </div>
+
+                                    <div class="detailBox__article">
+                                        <div class="detailBox__bg">
+
+                                            <div class="detailBox__melitLead">
+                                                <p class="lowTxt">リビング・ダイニングに設けた納戸に加え、<br>各居室に設けたクローゼットなど、<br class="sp">多彩な収納が魅力です。</p>
+                                            </div>
+                                        <div class="switchCont js-switchWrap">
+                                            <div class="detailBox__melitLead">
+<!--                                                <p class="basic">【BASIC】</p>-->
+                                            </div>
+                                            <div class="detailFigure">
+                                            <div class="detailFigure__item  js-switchCont is-show"><img src="./images02/plan/m-d.gif" alt="D type"></div>
+                                            </div>
+                                        </div>
+
+                                            <ul class="floorCap">
+                                                <li class="floorCap__item"><span class="floorCap__icon floorCap__icon--heating"></span>床暖房範囲</li>
+                                                <li class="floorCap__item"><span class="floorCap__icon floorCap__icon--storage"></span>収納</li>
+                                                <li class="floorCap__item"><svg class="floorCap__icon floorCap__icon--gout" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.57 9.98">
+                                                        <path d="M0,2.41S11.85,15.08,24.69,7.63c8.4-4.87,14.93-4.83,25.88,1.25,0,0-12.97-13.53-26-7.19C14.42,6.61,9.48,6.85,0,2.41Z" />
+                                                    </svg>通風</li>
+                                                <li class="floorCap__item"><svg class="floorCap__icon floorCap__icon--lighting" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.58 9.65">
+                                                        <polygon points="0 5.04 50.58 9.65 50.58 0 0 5.04" />
+                                                    </svg>採光</li>
+                                                <li class="floorCap__item">▼ 出入可能窓</li>
+                                            </ul>
+                                            <ul class="floorPlan">
+                                                <li class="floorPlan__item">S：サービスルーム（納戸） N：納戸</li>
+                                                <li class="floorPlan__item">※掲載の図面は計画段階のもので変更になる場合がございます。</li>
+                                            </ul>
+                                        </div>
+                                        <section class="entryInnerArea" data-aos="fade-up">
+                                            <div class="wrap">
+                                                <h3 class="head--04">
+                                                    <img class="entryInnerArea__img" src="./images/plan/entry-inner-ttl.png" alt="Limited" width="313" height="112" loading="lazy">
+                                                    <span class="txt">物件エントリー<br class="sp">いただくと、<br class="sp">他のプランも<br class="sp">ご覧いただけます。</span>
+                                                </h3>
+                                                <a class="entryCvBtn js-waveBtn" href="https://www.odakyu-leafia.jp/script/form/526/388/index.php" target="_blank">物件エントリーはこちら</a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div><!--js-openCont Dtype-->
+                            </li>
+                                
+                            <li class="type-detail" id="drtype" style="display: none">
                             <div class="js-openCont">
                                 <div class="detailBox__body detailBox__body--airly">
                                     <div class="detailBox__spec js-openBtn">

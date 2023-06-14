@@ -1112,7 +1112,7 @@
   padding-right: 59px;
 }
 .specBox__plan.etype-basic{
-  padding-right: 68px;
+  padding-right: 47px;
 }
 .specBox__plan.atype{
   padding-right: 146px;
@@ -1122,6 +1122,9 @@
 }
 .specBox__plan.drtype{
   padding-right: 110px;
+}
+.specBox__plan.dtype{
+  padding-right: 155px;
 }
 .specBox__plan.ltype{
   padding-right: 161px;
@@ -1383,7 +1386,7 @@
   .specBox__type {
     margin-right: 0px;
     padding: 5px 10px 0 0;
-    text-align: center;
+    text-align: left;
     line-height:1.2;
   }
   .specBox__plan {
@@ -1418,7 +1421,7 @@
 @media print, screen and (min-width: 1024px) {
   .specBox__plan {
     text-align: left;
-  }  
+  }
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .specBox__ha {
@@ -1430,6 +1433,7 @@
   .switchCont {
     margin: 50px auto;
   }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -1471,6 +1475,9 @@
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 20px;
+    text-align: center;
+  }
+  .specBox__type {
     text-align: center;
   }
 }
@@ -2361,6 +2368,12 @@
     left: 23.5%;
     width: 7.79%;
 }
+.torikagoArea .link .btn_d{
+    position: absolute;
+    top:13.3%;
+    left: 23.5%;
+    width: 7.82%;
+}
 .torikagoArea .link .btn_e{
     position: absolute;
     top:0.2%;
@@ -2422,6 +2435,10 @@
     margin-top:-200px;
 }
 #drtype{
+    padding-top:200px;
+    margin-top:-200px;
+}
+#dtype{
     padding-top:200px;
     margin-top:-200px;
 }
@@ -2494,6 +2511,12 @@
     top:0.1px;
     left: 188px;
     width: 62.8px;
+}
+.torikagoArea .link .btn_d{
+    position: absolute;
+    top:42.1px;
+    left: 188px;
+    width: 62.5px;
 }
 .torikagoArea .link .btn_e{
     position: absolute;
