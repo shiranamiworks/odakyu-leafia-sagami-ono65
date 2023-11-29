@@ -1187,6 +1187,9 @@
   display: block;
   font-family: "Noto Serif JP";
 }
+.specBox__type .small.room.lg-109{
+  padding-top: 6px;
+}
 
 
 .specBox__plan {
@@ -1484,6 +1487,18 @@
     text-align: center;
   }
   .specBox__plan.dtype{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .specBox__plan.drtype{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .specBox__plan.lgtype{
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 20px;
