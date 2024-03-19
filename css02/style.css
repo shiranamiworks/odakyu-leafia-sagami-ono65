@@ -1027,8 +1027,17 @@
     width: 100%;
   }
 }
+.slider img {
+  width: 100%;
+  object-fit: cover;
+}
+.slick-dots li button:before{
+  opacity: 1;
+  color: #999;
+}
 
 .mainVisual {
+  display: none;
   overflow: hidden;
   position: relative;
   z-index: 1;
