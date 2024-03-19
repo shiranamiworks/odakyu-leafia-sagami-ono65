@@ -1816,7 +1816,10 @@
 
 @media print, screen and (min-width: 768px) {
   .uspTxt__item {
-    padding: 0 5px 30px;
+    padding: 50px 5px 30px;
+  }
+  .uspTxt__item .bold{
+    font-weight: bold;
   }
   .uspTxt__item.price {
     padding: 0 5px 24px;
@@ -1840,6 +1843,9 @@
     padding-bottom: 24px;
     font-size: 25px;
   }
+  .uspTxt__item .bold{
+    font-weight: bold;
+  }
   .uspTxt__item.price {
     padding-bottom: 24px;
     line-height: 1.0;
@@ -1857,11 +1863,13 @@
 
 .uspTxt .num {
   font-family: 'EB Garamond';
-  font-size: 1.33em;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .uspTxt .ha {
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .uspTxt .cross {
