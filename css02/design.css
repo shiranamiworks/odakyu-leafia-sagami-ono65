@@ -742,8 +742,8 @@
   }
 }
 
-.designArea .blockLead {
-  margin-bottom: 5px;
+.blockLead {
+  margin-bottom: 55px;
 }
 
 @media print, screen and (min-width: 768px) {
