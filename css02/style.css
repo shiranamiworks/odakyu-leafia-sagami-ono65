@@ -1861,6 +1861,10 @@
   color: #4e9c99;
 }
 
+.uspTxt .red {
+  color: #b30000;
+}
+
 .uspTxt .num {
   font-family: 'EB Garamond';
   font-size: 1.4em;
