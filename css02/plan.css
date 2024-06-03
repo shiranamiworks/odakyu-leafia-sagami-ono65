@@ -2284,6 +2284,13 @@
 .pageLeadArea sup{
     font-size: 10px;
 }
+.pageLeadArea sub{
+    font-size: 13px;
+    vertical-align: baseline;
+}
+.pageLeadArea .head--02{
+    line-height: 1.6;
+}
 @media print, screen and (min-width: 768px) {
   .pageLeadArea {
     padding-bottom: 60px;
@@ -2303,6 +2310,12 @@
   .pageLeadArea .cap{
     text-align: left;
   }
+  .pageLeadArea sub{
+    font-size: 13px;
+    display: block;
+    padding-top: 10px;
+      
+}
 }
 
 @media print, screen and (min-width: 768px) {

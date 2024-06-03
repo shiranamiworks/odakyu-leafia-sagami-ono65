@@ -457,7 +457,7 @@
 
 @media only screen and (max-width: 767px) {
   .cPhoto__capIn {
-    bottom: 25px;
+    bottom: 0px;
   }
 }
 
@@ -620,6 +620,11 @@
   font-size: .5em;
 }
 
+.cLinkBox .head--03 sub{
+  font-size:  11px;
+  vertical-align: baseline;
+}
+
 .cLinkBox .head--03 .mid{
   font-size: 17px;
 }
@@ -629,7 +634,8 @@
 }
 
 .cLinkBox .lowTxt sup{
-  font-size: .5em;
+  font-size: 11px;
+  vertical-align: baseline;
 }
 
 .cLinkBtn {
@@ -1807,7 +1813,13 @@
   letter-spacing: .08em;
   line-height: 1.35;
 }
-
+.uspTxt__item sub{
+  font-size: 15px;
+  vertical-align: baseline;
+}
+.uspTxt__item .mini{
+  font-size: 15px;
+}
 .uspTxt .term {
     font-size: 10px;
     display: block;
@@ -1841,7 +1853,7 @@
 @media print, screen and (max-width: 767px) {
   .uspTxt__item {
     padding-bottom: 24px;
-    font-size: 25px;
+    font-size: 22px;
   }
   .uspTxt__item .bold{
     font-weight: bold;
@@ -1854,6 +1866,18 @@
       padding-bottom: 10px;
       display: inline-block;
       font-size: 19px;
+  }
+  .uspTxt__item sub{
+    font-size: 13px;
+    display: block;
+    padding-top: 10px;
+    vertical-align: unset;
+  }
+  .uspTxt__item .mini{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-top: 10px;
+    display: inline-block;
   }
 }
 
