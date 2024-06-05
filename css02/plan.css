@@ -556,7 +556,7 @@
   .detailBox {
     margin: 0 auto;
     max-width: 1170px;
-    padding: 30px 0 60px;
+    padding: 30px 0;
   }
 }
 
@@ -571,7 +571,7 @@
     text-shadow: 2px 3px 3px #cccccc;
 }
 .detailBox--over75 {
-  margin-bottom: 50px;
+/*  margin-bottom: 50px;*/
 }
 
 .detailBox:nth-of-type(n+2) {
@@ -2293,13 +2293,13 @@
 }
 @media print, screen and (min-width: 768px) {
   .pageLeadArea {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .pageLeadArea {
-    padding-bottom: 30px;
+    padding: 40px 0 0;
   }
   .pageLeadArea .head--02{
     text-align: center;
@@ -2332,13 +2332,13 @@
 
 @media print, screen and (min-width: 768px) {
   .detailArea {
-    padding: 0 0 80px;
+/*    padding: 0 0 80px;*/
   }
 }
 
 @media only screen and (max-width: 767px) {
   .detailArea {
-    padding: 0 0 40px;
+    padding: 0;
   }
 }
 
@@ -2350,7 +2350,7 @@
 }
 
 .torikagoArea {
-    padding: 64px 0;
+/*    padding: 64px 0;*/
 }
 .torikagoArea sup{
     font-size: 10px;
