@@ -1851,9 +1851,12 @@
 }
 
 @media print, screen and (max-width: 767px) {
+  .wrap {
+    padding: 0 10px;
+  }
   .uspTxt__item {
     padding-bottom: 24px;
-    font-size: 22px;
+    font-size: 19px;
   }
   .uspTxt__item .bold{
     font-weight: bold;
