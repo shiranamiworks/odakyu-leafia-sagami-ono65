@@ -2284,12 +2284,11 @@
 .pageLeadArea sup{
     font-size: 10px;
 }
-.pageLeadArea sub{
-    font-size: 13px;
-    vertical-align: baseline;
-}
 .pageLeadArea .head--02{
     line-height: 1.6;
+}
+.pageLeadArea .head--02 .mini{
+    font-size: 13px;
 }
 @media print, screen and (min-width: 768px) {
   .pageLeadArea {
@@ -2303,19 +2302,18 @@
   }
   .pageLeadArea .head--02{
     text-align: center;
+    line-height: 1.4;
   }
+  .pageLeadArea .head--02 .mini{
+    display: inline-block;
+    padding-bottom: 15px;
+}
   .pageLeadArea .lowTxt{
     text-align: center;
   }
   .pageLeadArea .cap{
     text-align: left;
   }
-  .pageLeadArea sub{
-    font-size: 13px;
-    display: block;
-    padding-top: 10px;
-      
-}
 }
 
 @media print, screen and (min-width: 768px) {
