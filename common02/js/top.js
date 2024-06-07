@@ -6,7 +6,7 @@ $slider.slick({
   slidesToShow: 1,
   autoplay: true,
   pauseOnHover: false,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
   arrows: false,
   fade: true,
   speed: 3000,
