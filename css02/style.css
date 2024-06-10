@@ -2188,3 +2188,53 @@
   margin-bottom: 30px;
   text-align: center;
 }
+
+/*
+-----------------------------------------------
+sold-out
+-----------------------------------------------*/
+.sold-mv {
+  position: relative;
+}
+.sold-mv img {
+  width: 100%;
+  object-fit: cover;
+}
+.sold-mv .photo__capIn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.headerBottom{
+    display: none;
+}
+.spFixedNav{
+    display: none;
+}
+.uspArea{
+    display: none;
+}
+.infoArea{
+    display: none;
+}
+.entryMeritArea{
+    display: none;
+}
+.cLinkArea{
+    display: none;
+}
+.ftrCvArea{
+    display: none;
+}
+.summaryArea{
+    display: none;
+}
+.summary{
+    display: none;
+}
+.footerContactArea{
+    display: none;
+}
+.footerLink{
+    margin-top: 100px;
+}
