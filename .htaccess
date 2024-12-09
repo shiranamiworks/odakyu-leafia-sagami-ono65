@@ -1,0 +1,4 @@
+<Files ~ "^\.ht">
+Require all denied
+</Files>
+RedirectMatch 301 .* https://www.odakyu-leafia.jp/soldout/
